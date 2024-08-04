@@ -2,11 +2,16 @@
 
 Run through the steps below to setup Kafka on the EC2 instance created by terraform.
 
+
+
+
 Note 1: As data costs money to call from an api we will be using a given set of data in this repo. This can be easily updated to call from an api if you wish to do so!
 
 Note 2: We are using the free tier of the EC2 instance so it does not have much memory or computational power. Due to this we have added a delay to data uploading. Removing this will cause zookeeper/kafka to crash upon running the kafka python files for any meaningful amount of time. 
 
-# Security warning
+![alt text](http://url/to/img.png](https://github.com/soningfold/de-stock-market-data-analysis/blob/main/project_architecture.jpg)
+
+# Security Warning
 
 WARNING! It is best practice to limit the traffic to only be able to use authorised ip addresses, and to limit ports to the only ones required. I have not done this as this is primarily a data engineering project. (See main.tf file to update as you wish)
 
