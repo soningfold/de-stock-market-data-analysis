@@ -1,2 +1,5 @@
 kafka-python
 pandas
+s3fs
+kafka
+python-dotenv
